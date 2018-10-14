@@ -10,20 +10,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <include
+            android:id="@+id/cofftoolbar"
             layout="@layout/coffetoolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <include
             layout="@layout/content_coffeactivity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/cofftoolbar"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/cofftoolbar"/>
     </RelativeLayout>
-
-    <include layout="@layout/content_coffeactivity" />
 
 
 </android.support.design.widget.CoordinatorLayout>
