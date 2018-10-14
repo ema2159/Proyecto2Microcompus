@@ -27,6 +27,10 @@
         <activity
             android:name=".BarActivity"
             android:label="@string/title_activity_bar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".sodActivity"
+            android:label="@string/title_activity_sod"
             android:theme="@style/AppTheme"></activity>
     </application>
 

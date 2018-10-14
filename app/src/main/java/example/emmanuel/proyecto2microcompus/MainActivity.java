@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button coffbtn, resbtn, barbtn;
+    Button coffbtn, resbtn, barbtn, sodbtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(getApplicationContext(),BarActivity.class);
+                startActivity(i);
+            }
+        });
+        sodbtn=(Button)findViewById(R.id.sodbutton);
+        sodbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(getApplicationContext(),sodActivity.class);
                 startActivity(i);
             }
         });
