@@ -7,13 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class coffeactivity extends AppCompatActivity {
+public class resActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_coffeactivity);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.cofftoolbar);
+        setContentView(R.layout.activity_res);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.restoolbar);
         setSupportActionBar(toolbar);
     }
 }

@@ -3,5 +3,7 @@
     <color name="colorPrimary">#001b5a</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="coffecolor">#512a00</color>
+    <color name="rescolor">#318e31</color>
+    <color name="barcolor">#e8500b79</color>
     <color name="colorAccent">#D81B60</color>
 </resources>
