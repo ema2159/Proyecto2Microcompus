@@ -17,7 +17,7 @@
             android:layout_height="wrap_content" />
 
         <include
-            layout="@layout/content_coffeactivity"
+            layout="@layout/content_res"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/restoolbar"/>

@@ -24,7 +24,8 @@
                 android:layout_height="80dp"
                 android:layout_weight="1"
                 android:background="@drawable/ic_coffbutton"
-                style="?android:attr/borderlessButtonStyle"/>
+                style="?android:attr/borderlessButtonStyle"
+                />
             <Button
                 android:id="@+id/resbutton"
                 android:layout_width="match_parent"
