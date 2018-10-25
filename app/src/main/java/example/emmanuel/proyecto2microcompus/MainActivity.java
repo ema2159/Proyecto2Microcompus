@@ -7,10 +7,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
+import android.widget.ViewFlipper;
 
 public class MainActivity extends AppCompatActivity {
     private AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
     Button coffbtn, resbtn, barbtn, sodbtn;
+    ViewFlipper slides;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,5 +57,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        slides = (ViewFlipper)findViewById(R.id.slideshow);
+        slides.setAutoStart(true);
+        slides.setFlipInterval(4000);
+        slides.startFlipping();
+
     }
 }
